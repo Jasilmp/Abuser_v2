@@ -29,9 +29,9 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*I am not admin in this group!*",
+            "IM_NOT_ADMIN": "*ɴᴊᴀɴ ᴀᴅᴍɪɴ ᴀʟʟᴀ ᴀʙᴜ 🙁ᴠᴇᴋᴀᴍ ᴀᴅᴍɪɴᴏᴅ ᴘᴀʀᴀ*",
             "BANNED": "kicked out of the group!",
-            "GIVE_ME_USER": "*Give me a user!*",
+            "GIVE_ME_USER": "*ᴀʀᴇʟᴜᴍ ᴍᴇɴᴛɪᴏɴ ᴄʜᴀʏʏ😈!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
             "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
@@ -163,7 +163,7 @@
             "UNBLOCKED": "unblocked",
             "BLOCKED_UPPER": "Blocked!",
             "UNBLOCKED_UPPER": "Unblocked.",
-            "NEED_USER": "Give me a user!",
+            "NEED_USER": "ᴀʀᴇʟᴜᴍ ᴍᴇɴᴛɪᴏɴ ᴄʜᴀʏʏ😈!",
             "JID_DESC": "Giving user's JID.",
             "JID": "```JID address of``` @{} ```: {}```",
             "JID_CHAT": "```Chat's JID address: {}```"
@@ -225,7 +225,7 @@
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!*",
+            "ADMİN": "*ɴᴊᴀɴ ᴀᴅᴍɪɴ ᴀʟʟᴀ ᴀʙᴜ 🙁ᴠᴇᴋᴀᴍ ᴀᴅᴍɪɴᴏᴅ ᴘᴀʀᴀ*",
             "SCAN": "Checks whether the entered number is registered on WhatApp.",
             "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 90xxxx```",
             "SUC": "*Numbered Person Uses WhatsApp! ✅*",
@@ -246,7 +246,7 @@
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
             "UPDATED": "*Updated ✅️*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*Amalser Restarting ✅️*",
+            "AFTER_UPDATE": "*Abuser Restarting ✅️*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
