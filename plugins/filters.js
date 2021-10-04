@@ -58,7 +58,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention
 await message.client.sendMessage(message.jid, fs.readFileSync('uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         
-const array = ['Amal','caption','Mrng','alive','Di','Bro','amal','avan','converting','Amalser','Allah','bg','help','Hii','odiko','oho','killadi','oo','Fuck','invite','Hi','love','Owner','Group','list','man','Nanba','oii','poda','yo','sad','work','set','remove','thukum','poko','myre,','kundan','xmedia','commands','Boss','vava','Myre','Lalitha','start','Adithhari','sing','Hello','Bye','warn','Baby','who','find','power','myr','vanam','tagall','Re entry','pass','patti','phaa','mone','look','bor','try','owner','luv','feel','romam','set','potte','no replay','bgm','vijay','poli']
+const array = ['Amal','caption','Mrng','alive','Di','Bro','amal','avan','converting','Amalser','Allah','bg','help','Hii','odiko','oho','killadi','oo','Fuck','invite','Hi','love','Owner','Group','list','man','Nanba','oii','poda','yo','sad','work','set','remove','thukum','poko','myre,','kundan','xmedia','commands','Boss','vava','Myre','Lalitha','start','Adithhari','sing','Hello','Bye','warn','Baby','who','find','power','myr','vanam','tagall','Re entry','pass','patti','phaa','mone','look','bor','try','owner','luv','feel','romam','set','potte','no replay','bgm','vijay','poli,'Abu,'Abuop']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -84,14 +84,14 @@ if(pattern.test(message.message)){
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919895828468@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./Amalserv2/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, contextInfo: { forwardingScore: 5, isForwarded: true }, quoted : message.data, ptt: true})
+        if (!!message.mention && message.mention[0] == '917025994178@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./Abuserv2/Abu.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, contextInfo: { forwardingScore: 5, isForwarded: true }, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
-await message.client.sendMessage(message.jid, fs.readFileSync('Amalserv2/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('Abuserv2/Abu.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         var uri = encodeURI(match[1])
-const array = ['Hi','pro','coming','alive','list','go','menu','koii','update','wait','Mrng','Amalser','like','bad','amal','nice','link','Farhan','Hii','ok','myr','set','ayo','i want','help','working','life','Da','fix','Amalsir','promiss','sed','old','fek','Kozhi','ee','single','one side','muthe','Aliya','audio','oh','something','Myre','caption','di','love','you','update now','super','iwa','erorr','status','Dii','feel','kuppy','bst','maduthu','niyo','what','but y','chakare','mone','uyir','friends','owner','shit','fan','fans','Broken','E bullet','Hello','over','ayikotte','kollam','muthe','propose','rain','kozhi']
+const array = ['Hi','pro','coming','alive','list','go','menu','koii','update','wait','Mrng','Amalser','like','bad','amal','nice','link','Farhan','Hii','ok','myr','set','ayo','i want','help','working','life','Da','fix','Amalsir','promiss','sed','old','fek','Kozhi','ee','single','one side','muthe','Aliya','audio','oh','something','Myre','caption','di','love','you','update now','super','iwa','erorr','status','Dii','feel','kuppy','bst','maduthu','niyo','what','but y','chakare','mone','uyir','friends','owner','shit','fan','fans','Broken','E bullet','Hello','over','ayikotte','kollam','muthe','propose','rain','kozhi,'Abu,'Abuop']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -116,10 +116,10 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '919895828468@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./Amalser/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
+    if (!!message.mention && message.mention[0] == '917025994178@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./Abuser/Abu.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Amalser','chaya','escape','truth','hm','pottan','oh','nokk','nude','oo','kali','Remove','bot','lost','copy','Da','come','sex','help','sorry','podi','nee','done','kalam','Di','Dey','oho','Welcome','Nanba','ee','Hello','para','kindi','list','check','podey','odiko','save','Hii','oii','sad','sed','thenga','bad','run','remove','love','kick','enth','alive','amal','menu','ella','unmute','mute']
+const array = ['Amalser','chaya','escape','truth','hm','pottan','oh','nokk','nude','oo','kali','Remove','bot','lost','copy','Da','come','sex','help','sorry','podi','nee','done','kalam','Di','Dey','oho','Welcome','Nanba','ee','Hello','para','kindi','list','check','podey','odiko','save','Hii','oii','sad','sed','thenga','bad','run','remove','love','kick','enth','alive','amal','menu','ella','unmute','mute,'Abu']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
